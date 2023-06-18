@@ -9,7 +9,7 @@ Using a [virtual environment](https://click.palletsprojects.com/en/7.x/quickstar
 $ pip install virtualenv
 $ virtualenv venv
 $ . venv/bin/activate
-$ pip install -e .
+$ pip install -r requirements.txt
 ```
 
 ### Local Execution
