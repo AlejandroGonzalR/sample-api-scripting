@@ -1,10 +1,10 @@
 from typing import Any
 
 import requests
-from config.app_environments import APIs
+from src.config.app_environments import APIs
 
 
-class HTTPClient:
+class HttpClient:
     def __init__(self, api: str = 'sample_api') -> None:
         self.base_url = APIs[api]['host']
         self.headers = APIs[api]['headers'] or {}
